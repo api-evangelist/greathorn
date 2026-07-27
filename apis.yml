@@ -1,7 +1,24 @@
 aid: greathorn
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/greathorn.png
 name: GreatHorn
-description: GreatHorn is a company surfaced as a portfolio company of uncork-capital and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'GreatHorn was a cloud-native email security company founded in 2015 in Waltham,
+  Massachusetts, providing anti-phishing, spear-phishing, business email compromise (BEC), and
+  account-takeover protection for Microsoft 365 and Google Workspace. Backed by Uncork Capital,
+  it was acquired by Hornetsecurity in 2021. As of enrichment (July 2026) the greathorn.com
+  domain returns HTTP 404 (Cloudflare, acquired/retired) and the company publishes no live
+  developer portal, API documentation, or OpenAPI surface. No public API artifacts were found
+  to enrich; this profile is retained as a historical/portfolio record.'
 url: https://raw.githubusercontent.com/api-evangelist/greathorn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: acquired
+x-acquired-by: hornetsecurity
+x-acquired-year: 2021
+x-domain-status: '404'
 tags:
 - Company
+- Email Security
+- Anti-Phishing
+- Cloud Email
+- Business Email Compromise
+- Microsoft 365
+- Google Workspace
+- Cybersecurity
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
