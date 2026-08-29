@@ -31,6 +31,9 @@ description: 'GreatHorn was a cloud-native email security company founded in 201
   developer portal, API documentation, or OpenAPI surface. No public API artifacts were found
   to enrich; this profile is retained as a historical/portfolio record.'
 url: https://raw.githubusercontent.com/api-evangelist/greathorn/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "No public API artifacts were found to enrich; this profile is retained as a historical/portfolio record."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
