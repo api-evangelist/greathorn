@@ -53,7 +53,7 @@ tags:
 - Anti-Phishing
 - Cloud Email
 - Business Email Compromise
-- Microsoft-365
+- Microsoft 365
 - Google Workspace
 - Cybersecurity
 tags_raw:
@@ -65,6 +65,7 @@ tags_raw:
 - Microsoft 365
 - Google Workspace
 - Cybersecurity
+- Microsoft-365
 apis: []
 maintainers:
 - FN: Kin Lane
